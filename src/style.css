@@ -3,6 +3,7 @@ body{
   color: #D3A121;
   text-align: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -22,4 +23,9 @@ input{
   width: 100vh;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
 }
